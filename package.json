@@ -1,13 +1,13 @@
 {
   "name": "blockly",
-  "version": "10.3.1",
+  "version": "10.3.102",
   "description": "Blockly is a library for building visual programming editors.",
   "keywords": [
     "blockly"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/google/blockly.git"
+    "url": "https://github.com/str11ngfello/blockly.git"
   },
   "bugs": {
     "url": "https://github.com/google/blockly/issues"

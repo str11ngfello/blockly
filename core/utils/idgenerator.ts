@@ -6,16 +6,9 @@
 
 // Former goog.module ID: Blockly.utils.idGenerator
 
-/**
- * Legal characters for the universally unique IDs.  Should be all on
- * a US keyboard.  No characters that conflict with XML or JSON.
- * Requests to remove additional 'problematic' characters from this
- * soup will be denied.  That's your failure to properly escape in
- * your own environment.  Issues #251, #625, #682, #1304.
- */
+
 const soup =
-  '!#$%()*+,-./:;=?@[]^_`{|}~' +
-  'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+  'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz';
 
 /**
  * Namespace object for internal implementations we want to be able to
